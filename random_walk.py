@@ -37,15 +37,10 @@ for i in range(1, n):
 
 
 ax.plot(x, y)
+# Set title for the plot
+ax.set_title(print('Random Walk with ' + str(n) + " steps"))
+
 plt.show()
-
-
-
-
-
-
-
-
 
 
 
